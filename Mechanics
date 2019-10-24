@@ -1,0 +1,14 @@
+   char player;
+    string pName;
+    std::cout << "Press 0 for Player 1 ";
+    std::cout << "Press 1 for Player 2 ";
+    std::cin >> player;
+    if (player == 0){
+        std::cout << "You are player 1  ";
+        std::cout << "Enter your name: ";
+        std::cin >> pName;
+    } else {
+        std::cout << "You are player 2  ";
+        std::cout << "Enter your name: ";
+        std::cin >> pName;
+    }
